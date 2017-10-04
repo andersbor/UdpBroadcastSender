@@ -11,7 +11,7 @@ namespace UdpBroadcastSender
     {
         public const int Port = 7000;
         static void Main()
-        {
+        {   
             UdpClient socket = new UdpClient();
             socket.EnableBroadcast = true; // IMPORTANT
             IPEndPoint endPoint = new IPEndPoint(IPAddress.Broadcast, Port);
