@@ -4,7 +4,6 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-// Using TcpClient
 namespace UdpBroadcastSender
 {
     class Program
